@@ -13,7 +13,7 @@ namespace tallerII_08_09_2021
     }
     public class Cuenta
     {
-        private int monto;
+        protected int monto;
 
         public int Monto { get => monto; set => monto = value; }
 
@@ -32,12 +32,20 @@ namespace tallerII_08_09_2021
             {
                 Monto = Monto - cantidad;
             }
-        }  
+        }
+
+        public virtual void extraccionCajeroAutomatico(string tipo, int cantidad)
+        {
+            if (tipo == TipoDeExtracion.cajeroHumano.ToString())
+            {
+                
+            }
+        }
     }
     public class CuentaAhorro : Cuenta
     {
         
-        public void extraccionCajeroAutomatico(string tipo, int cantidad)
+        public override void extraccionCajeroAutomatico(string tipo, int cantidad)
         {
             if (tipo == TipoDeExtracion.cajeroAutomatico.ToString())
             {
@@ -49,7 +57,7 @@ namespace tallerII_08_09_2021
     public class CuentaCorriente : Cuenta
     {
 
-        public void extraccionCajeroAutomatico(string tipo, int cantidad)
+        public override void extraccionCajeroAutomatico(string tipo, int cantidad)
         {
             if (tipo == TipoDeExtracion.cajeroAutomatico.ToString())
             {

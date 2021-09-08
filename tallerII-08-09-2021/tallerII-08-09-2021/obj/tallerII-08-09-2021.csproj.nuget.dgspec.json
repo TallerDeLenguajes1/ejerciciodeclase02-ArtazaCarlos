@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MetalZe\\source\\repos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj": {}
+    "G:\\Mi unidad\\Facultad\\Taller II\\repositorio\\ejerciciodeclase02-ArtazaCarlos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MetalZe\\source\\repos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj": {
+    "G:\\Mi unidad\\Facultad\\Taller II\\repositorio\\ejerciciodeclase02-ArtazaCarlos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MetalZe\\source\\repos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj",
+        "projectUniqueName": "G:\\Mi unidad\\Facultad\\Taller II\\repositorio\\ejerciciodeclase02-ArtazaCarlos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj",
         "projectName": "tallerII-08-09-2021",
-        "projectPath": "C:\\Users\\MetalZe\\source\\repos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj",
+        "projectPath": "G:\\Mi unidad\\Facultad\\Taller II\\repositorio\\ejerciciodeclase02-ArtazaCarlos\\tallerII-08-09-2021\\tallerII-08-09-2021\\tallerII-08-09-2021.csproj",
         "packagesPath": "C:\\Users\\MetalZe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MetalZe\\source\\repos\\tallerII-08-09-2021\\tallerII-08-09-2021\\obj\\",
+        "outputPath": "G:\\Mi unidad\\Facultad\\Taller II\\repositorio\\ejerciciodeclase02-ArtazaCarlos\\tallerII-08-09-2021\\tallerII-08-09-2021\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
