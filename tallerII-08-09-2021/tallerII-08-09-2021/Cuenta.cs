@@ -13,9 +13,11 @@ namespace tallerII_08_09_2021
     }
     public class Cuenta
     {
-        protected int monto;
+        private int monto;
+        private static List<Extracion> extraciones = new List<Extracion>();
 
-        public int Monto { get => monto; set => monto = value; }
+        protected int Monto { get => monto; set => monto = value; }
+        
 
         public Cuenta()
         {
@@ -26,13 +28,18 @@ namespace tallerII_08_09_2021
             Monto = monto;
         }
 
+        public void ingresoDinero(int ingreso)
+        {
+            Monto += ingreso;
+        }
+
         public void extraccionCajeroHumano(string tipo, int extracion)
         {
             if (tipo == TipoDeExtracion.cajeroHumano.ToString())
             {
                 if (Monto >= 0)
                 {
-                    Monto = Monto - extracion;
+                    Monto -= extracion;
                 }
                 
             }
@@ -65,7 +72,23 @@ namespace tallerII_08_09_2021
         {
             if (tipo == TipoDeExtracion.cajeroAutomatico.ToString())
             {
+                if ((Monto - extracion) >= -5000)
+                {
+                    Monto -= extracion;  
+                }
                 
+            }
+        }
+    }
+
+    public class CuentaCorrienteDolares : Cuenta
+    {
+
+        public override void extraccionCajeroAutomatico(string tipo, int extracion)
+        {
+            if (tipo == TipoDeExtracion.cajeroAutomatico.ToString())
+            {
+
             }
         }
     }

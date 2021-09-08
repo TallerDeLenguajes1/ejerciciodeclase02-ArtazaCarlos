@@ -6,4 +6,8 @@
     <RootNamespace>tallerII_08_09_2021</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="extracion1.cs" />
+  </ItemGroup>
+
 </Project>
